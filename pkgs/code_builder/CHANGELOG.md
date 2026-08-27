@@ -19,6 +19,9 @@
 - Add `Pattern` AST and static methods for generating Dart 3 pattern matching
   syntax.
 - Require Dart `^3.10.0`
+- Add `Expression.nullSafeCascade`, `cascadeIndex`, and `nullSafeCascadeIndex`
+  for building null-aware cascades (`?..`) and cascaded index accesses
+  (`..[]`, `?..[]`).
 
 ## 4.11.1
 
