@@ -22,7 +22,15 @@ final _testStrings = [
   '"',
   '\'',
   'word"word',
-  'word\'word'
+  'word\'word',
+  'x\n z\ny',
+  'x\n\tz\ny',
+  'x\n z',
+  'a\n b\n c\nd',
+  'a\n\nb',
+  'a\n\n\nb',
+  'a\n b\n\nc',
+  'a\n\n b',
 ];
 
 final _scalarStyles = [
